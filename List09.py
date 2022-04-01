@@ -6,4 +6,31 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    count = [fruits.count('apple')]
+    if count[0] == 0:
+        return count
+    i = 0
+    if fruits[i] == 'apple':
+        count.append(i)
+    i += 1
+
+    if fruits[i] == 'apple':
+        count.append(i)
+    i += 1
+
+    if fruits[i] == 'apple':
+        count.append(i)
+    i += 1
+
+    if fruits[i] == 'apple':
+        count.append(i)
+    i += 1
+
+    if fruits[i] == 'apple':
+        count.append(i)
+    i += 1
+    return count
+
+
+print(main(fruits=["apple", "apple", "apple", "apple", "kiwi"]))
+print(main(fruits=["apple", "banana", "apple", "pear", "apple"]))
