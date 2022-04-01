@@ -1,4 +1,4 @@
-def main(fruits,x):
+def main(fruits, x):
     """
     You will be given a list of fruits. Add x fruit to it from the end and return.
     Args:
@@ -7,4 +7,5 @@ def main(fruits,x):
     Returns:
         list: return answer
     """
-    return
+    fruits.append(x)
+    return fruitsg
