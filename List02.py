@@ -9,4 +9,4 @@ def main(fruits, x, i):
         list: return answer
     """
     fruits.insert(i, x)
-    return fruitsg
+    return fruits
