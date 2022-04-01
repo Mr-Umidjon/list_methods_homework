@@ -8,4 +8,4 @@ def main(fruits, x):
         list: return answer
     """
     fruits.append(x)
-    return fruitsg
+    return fruits
